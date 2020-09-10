@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/war-cards/static/css/main.ed88acc1.chunk.css",
+    "main.js": "/war-cards/static/js/main.b7ea7003.chunk.js",
+    "main.js.map": "/war-cards/static/js/main.b7ea7003.chunk.js.map",
+    "runtime-main.js": "/war-cards/static/js/runtime-main.d190daf4.js",
+    "runtime-main.js.map": "/war-cards/static/js/runtime-main.d190daf4.js.map",
+    "static/js/2.30032cb4.chunk.js": "/war-cards/static/js/2.30032cb4.chunk.js",
+    "static/js/2.30032cb4.chunk.js.map": "/war-cards/static/js/2.30032cb4.chunk.js.map",
+    "index.html": "/war-cards/index.html",
+    "precache-manifest.63a8f899b5f62175cd535b388b55d163.js": "/war-cards/precache-manifest.63a8f899b5f62175cd535b388b55d163.js",
+    "service-worker.js": "/war-cards/service-worker.js",
+    "static/css/main.ed88acc1.chunk.css.map": "/war-cards/static/css/main.ed88acc1.chunk.css.map",
+    "static/js/2.30032cb4.chunk.js.LICENSE.txt": "/war-cards/static/js/2.30032cb4.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d190daf4.js",
+    "static/js/2.30032cb4.chunk.js",
+    "static/css/main.ed88acc1.chunk.css",
+    "static/js/main.b7ea7003.chunk.js"
+  ]
+}
