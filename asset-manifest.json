@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/war-cards/static/css/main.ed88acc1.chunk.css",
-    "main.js": "/war-cards/static/js/main.b7ea7003.chunk.js",
-    "main.js.map": "/war-cards/static/js/main.b7ea7003.chunk.js.map",
+    "main.css": "/war-cards/static/css/main.e3478f73.chunk.css",
+    "main.js": "/war-cards/static/js/main.7e66fcb1.chunk.js",
+    "main.js.map": "/war-cards/static/js/main.7e66fcb1.chunk.js.map",
     "runtime-main.js": "/war-cards/static/js/runtime-main.d190daf4.js",
     "runtime-main.js.map": "/war-cards/static/js/runtime-main.d190daf4.js.map",
-    "static/js/2.30032cb4.chunk.js": "/war-cards/static/js/2.30032cb4.chunk.js",
-    "static/js/2.30032cb4.chunk.js.map": "/war-cards/static/js/2.30032cb4.chunk.js.map",
+    "static/js/2.436cc62a.chunk.js": "/war-cards/static/js/2.436cc62a.chunk.js",
+    "static/js/2.436cc62a.chunk.js.map": "/war-cards/static/js/2.436cc62a.chunk.js.map",
     "index.html": "/war-cards/index.html",
-    "precache-manifest.63a8f899b5f62175cd535b388b55d163.js": "/war-cards/precache-manifest.63a8f899b5f62175cd535b388b55d163.js",
+    "precache-manifest.42f2b759fedb1b5ac0c953a28dabf3fc.js": "/war-cards/precache-manifest.42f2b759fedb1b5ac0c953a28dabf3fc.js",
     "service-worker.js": "/war-cards/service-worker.js",
-    "static/css/main.ed88acc1.chunk.css.map": "/war-cards/static/css/main.ed88acc1.chunk.css.map",
-    "static/js/2.30032cb4.chunk.js.LICENSE.txt": "/war-cards/static/js/2.30032cb4.chunk.js.LICENSE.txt"
+    "static/css/main.e3478f73.chunk.css.map": "/war-cards/static/css/main.e3478f73.chunk.css.map",
+    "static/js/2.436cc62a.chunk.js.LICENSE.txt": "/war-cards/static/js/2.436cc62a.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.d190daf4.js",
-    "static/js/2.30032cb4.chunk.js",
-    "static/css/main.ed88acc1.chunk.css",
-    "static/js/main.b7ea7003.chunk.js"
+    "static/js/2.436cc62a.chunk.js",
+    "static/css/main.e3478f73.chunk.css",
+    "static/js/main.7e66fcb1.chunk.js"
   ]
 }
