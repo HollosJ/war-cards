@@ -1,5 +1,6 @@
 import React from "react";
 import "./App.scss";
+import BackBtn from "./img/back.png";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 
 import War from "./War";
@@ -198,10 +199,8 @@ function App() {
         <div className="Nav">
           <ul className="Nav__links">
             <Link to="/" className="homebtn">
-              Home
+              War Cards
             </Link>
-
-            <h1 className="title">War Cards</h1>
           </ul>
         </div>
 
@@ -211,6 +210,14 @@ function App() {
             return (
               <Route key={i} path={`/${key}`}>
                 <War war={data[key]} />
+                <Link to="/">
+                  <img
+                    src={BackBtn}
+                    alt="back"
+                    style={{ cursor: "pointer" }}
+                    className="backBtn"
+                  />
+                </Link>
               </Route>
             );
           })}

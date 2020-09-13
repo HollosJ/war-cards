@@ -40,8 +40,12 @@ a {
 //Nav component
 .Nav {
   width: 100%;
+  min-height: 6rem;
   display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: rgba($red, 0.75);
+  font-size: 2rem;
 }
 
 //Home screen (War selection component)
@@ -78,7 +82,13 @@ a {
 
 //Card page
 .War {
-  margin-top: 7.5rem;
+  padding-top: 5rem;
+}
+.backBtn {
+  position: fixed;
+  top: 1.5rem;
+  left: 1rem;
+  width: 3rem;
 }
 
 .buttons {
