@@ -40,12 +40,15 @@ a {
 //Nav component
 .Nav {
   width: 100%;
-  min-height: 6rem;
+  min-height: 4rem;
   display: flex;
   justify-content: center;
   align-items: center;
   background-color: rgba($red, 0.75);
   font-size: 2rem;
+  text-transform: uppercase;
+  letter-spacing: 1rem;
+  margin-bottom: 3rem;
 }
 
 //Home screen (War selection component)
@@ -82,13 +85,13 @@ a {
 
 //Card page
 .War {
-  padding-top: 5rem;
+  min-height: 90vh;
 }
 .backBtn {
-  position: fixed;
-  top: 1.5rem;
+  position: absolute;
+  top: 1rem;
   left: 1rem;
-  width: 3rem;
+  width: 2rem;
 }
 
 .buttons {
@@ -206,7 +209,7 @@ $i: 0;
   }
 }
 // XL Devices
-@media (min-width: 1200px) {
+@media (min-width: 1300px) {
   html {
     font-size: 16px;
   }
