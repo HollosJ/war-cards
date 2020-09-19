@@ -25,16 +25,6 @@ function War(props) {
   return (
     <div className="War">
       <div className={`cards-slider active-slide-${idx}`}>
-        <div
-          className="cards-slider-wrapper"
-          style={{
-            transform: `translateX(-${idx * (100 / props.war.length)}%)`,
-          }}
-        >
-          {props.war.map((yr, i) => {
-            return <Card key={i} id={i} data={yr} />;
-          })}
-        </div>
         <div className="buttons">
           <div
             className="btn decrement"
@@ -50,6 +40,16 @@ function War(props) {
           >
             &gt;
           </div>
+        </div>
+        <div
+          className="cards-slider-wrapper"
+          style={{
+            transform: `translateX(-${idx * (100 / props.war.length)}%)`,
+          }}
+        >
+          {props.war.map((yr, i) => {
+            return <Card key={i} id={i} data={yr} />;
+          })}
         </div>
       </div>
     </div>

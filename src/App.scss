@@ -95,22 +95,15 @@ a {
 }
 
 .buttons {
+  position: absolute;
+  z-index: 2;
+  width: 100%;
   display: flex;
   justify-content: space-between;
-  font-size: 2rem;
-  font-weight: 800;
-  color: $grey;
-  width: 100%;
-  position: absolute;
-  top: 37.5rem;
-  left: 50%;
-  transform: translateX(-50%);
-  z-index: 2;
-
   .btn {
     background-color: $red;
-    width: 4rem;
-    height: 4rem;
+    width: 3rem;
+    height: 3rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -126,7 +119,7 @@ a {
 
 //Card and slider styling
 .card {
-  height: 35rem;
+  height: 32rem;
   color: $white;
   background-size: cover;
   background-position: center;
@@ -151,6 +144,7 @@ a {
     padding: 1rem;
     list-style: none;
     border-radius: 0.25rem;
+    font-size: 0.9rem;
   }
 }
 
