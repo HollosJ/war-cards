@@ -1,6 +1,6 @@
 //All data
 export let data = {
-  WW1: [
+  World_War_I: [
     {
       year: 1914,
       events: [
@@ -60,7 +60,7 @@ export let data = {
         "https://upload.wikimedia.org/wikipedia/commons/2/2f/Armisticetrain_%28slight_crop%29.jpg",
     },
   ],
-  WW2: [
+  World_War_II: [
     {
       year: 1939,
       events: [
@@ -137,7 +137,7 @@ export let data = {
         "https://cdnph.upi.com/svc/sv/upi/8581596809704/2020/1/ffc24f10fb1da77fb975b189d0a7d2f9/UPI-Almanac-for-Sunday-Aug-9-2020.jpg",
     },
   ],
-  Falklands: [
+  The_Falklands_War: [
     {
       year: "April",
       events: [
