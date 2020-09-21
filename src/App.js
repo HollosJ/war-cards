@@ -1,8 +1,7 @@
 import React from "react";
 import "./App.scss";
 import BackBtn from "./img/back.png";
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
-
+import { HashRouter, Route, Link, Switch } from "react-router-dom";
 import { data } from "./data";
 import War from "./War";
 import Home from "./Home";
@@ -16,7 +15,7 @@ function App() {
   });
 
   return (
-    <Router>
+    <HashRouter>
       <div className="App">
         {/* Nav menu */}
         <div className="Nav">
@@ -31,7 +30,7 @@ function App() {
         <Switch>
           {keys.map((key, i) => {
             return (
-              <Route key={i} path={`/${key}`}>
+              <Route key={i} exact path={`/${key}/`}>
                 <War war={data[key]} />
                 <Link to="/">
                   <img
@@ -44,12 +43,12 @@ function App() {
               </Route>
             );
           })}
-          <Route path="/">
+          <Route exact path="/">
             <Home links={keys} imgs={imgs} />
           </Route>
         </Switch>
       </div>
-    </Router>
+    </HashRouter>
   );
 }
 
