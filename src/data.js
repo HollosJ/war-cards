@@ -67,7 +67,7 @@ export let data = {
         "Hitler invades Poland on 1 September. Britain and France declare war on Germany two days later.",
       ],
       img:
-        "http://totallyhistory.com/wp-content/uploads/2013/04/Polish_infantry_marching_-2_1939.jpg",
+        "https://encyclopedia.ushmm.org/images/large/6b473ced-71b7-474b-9519-969ed787dda8.jpg",
     },
     {
       year: 1940,
