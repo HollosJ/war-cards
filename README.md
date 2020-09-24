@@ -12,11 +12,11 @@ Current Wars and Events:
 - WW1
 - WW2
 - The Cold War
+- The Korean War
 - The Falklands War
 
 Potential future additions:
 
-- The Korean War
 - The Bosnian War
 - The War in Afghanistan
 - The Russian Civil War
@@ -28,4 +28,5 @@ This site is build using React with React Router.
 [WW1 Key Events](https://www.loc.gov/collections/stars-and-stripes/articles-and-essays/a-world-at-war/timeline-1914-1921/)
 [WW2 Key Events](http://www.bbc.co.uk/history/worldwars/wwtwo/ww2_summary_01.shtml)
 [The Cold War Key Events](http://www.datesandevents.org/events-timelines/03-cold-war-timeline.htm)
+[The Korean War Key Events](http://faculty.polytechnic.org/gfeldmeth/chart.korea.html)
 [The Falklands War](https://www.softschools.com/timelines/falklands_war_timeline/413/)
