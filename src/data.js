@@ -477,6 +477,60 @@ export let data = {
         "https://static01.nyt.com/images/2017/08/28/opinion/28westad-redcenturyWeb/28westad-redcenturyWeb-articleLarge.jpg?quality=75&auto=webp&disable=upscale",
     },
   ],
+  Korean_War: [
+    {
+      year: 1945,
+      events: [
+        "Following Japanese surrender, Soviets maintained military presence in the North with American troops in the South. Temporary border at 38th parallel established.",
+      ],
+      img:
+        "https://i.pinimg.com/originals/6f/56/a7/6f56a7484b93387b9e16d097ff0baab4.jpg",
+    },
+    {
+      year: 1949,
+      events: [
+        "A pro-Soviet puppet government is left in charge of North Korea with a vastly superior army to U.S.-supported South.",
+      ],
+      img:
+        "https://cdn.theatlantic.com/assets/media/mt/international/kim%20il%20sung%20tn.jpg",
+    },
+    {
+      year: 1950,
+      events: [
+        "Whether North Koreans acted with Stalin's approval is still debated.",
+        "With the Soviet Union absent from the Security Council, the U.S. was able to win agreement from UN to support South Korea. MacArthur appointed to command UN operations.",
+        "In surprise landing behind enemy lines, US forces push North Korean army back north of the 38th parallel.",
+        "North Korean capital now in UN control.",
+        "Chinese divisions enter fighting.",
+      ],
+      img: "https://warriorgirl3.files.wordpress.com/2015/02/jh8cxds.png?w=720",
+    },
+    {
+      year: 1951,
+      events: [
+        "In message to House Republican leader Martin, MacArthur expresses his frustration with the limited war U.S. is fighting against communists.",
+        "Following several warnings about insubordination, Truman angers public (69% support MacArthur) by firing the US commander.",
+        'In emotional speech, MacArthur declares "Old soldiers never die, they merely fade away".',
+      ],
+      img: "http://www.emersonkent.com/images/old_soldiers_never_die.jpg",
+    },
+    {
+      year: 1952,
+      events: [
+        'Eisenhower pledges to go to Korea to end the war. VP candidate Nixon contends Democrats had caved in to communists in Korea and that Democrat presidential candidate Stevenson should be called "Adlai the Appeaser"',
+      ],
+      img:
+        "https://ic.pics.livejournal.com/kensmind/1278588/1053326/1053326_600.jpg",
+    },
+    {
+      year: 1953,
+      events: [
+        "Talks drag on until 1953 and war is settled with the establishment of a DMZ (demilitarized zone) on each side of the 38th parallel.",
+        "Formal peace treaty never signed. Over 1,000,000 Koreans and 54,000 Americans killed in conflict plus thousands who die as prisoners of war.",
+      ],
+      img: "https://pbs.twimg.com/media/B9dyB6MCYAEUhnZ?format=jpg&name=small",
+    },
+  ],
   The_Falklands_War: [
     {
       year: "April",
