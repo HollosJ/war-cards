@@ -52,12 +52,9 @@ a {
 
 //Home screen (War selection component)
 .Home {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   &__grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(35rem, 1fr));
     grid-template-rows: repeat(auto);
     width: 100%;
     a {
