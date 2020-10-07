@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "37271b638aa6f7389f1253b9d03c76fb",
+    "revision": "ef584d3ffe60957852696ba80166b5b6",
     "url": "/war-cards/index.html"
   },
   {
-    "revision": "98537e01fb0964a7a3b7",
-    "url": "/war-cards/static/css/main.31e90eef.chunk.css"
+    "revision": "9d62eab37fb6b1bc051a",
+    "url": "/war-cards/static/css/main.1edf69dd.chunk.css"
   },
   {
     "revision": "2d49d36e7743e7038891",
@@ -16,7 +16,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/war-cards/static/js/2.59fdeef3.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "98537e01fb0964a7a3b7",
+    "revision": "9d62eab37fb6b1bc051a",
     "url": "/war-cards/static/js/main.19569819.chunk.js"
   },
   {
