@@ -6,29 +6,9 @@ function War(props) {
   //STATE
   const [idx, setIdx] = useState(0);
 
-  
   useEffect(() => {
     setIdx(0);
   }, []);
-
-  //DETECTING SWIPE FUNCTIONS
-
-  let prev = 0;
-  let curr = 0;
-
-  const getPos1 = (e) => {
-    prev = e.pageX;
-  }
-
-  const getPos2 = (e) => {
-    curr = e.pageX;
-
-    if ( curr > prev ) {
-      decrement()
-    } else if ( prev > curr ) {
-      increment()
-    }
-  }
 
 
   //HANDLE INCREMENT
@@ -45,7 +25,7 @@ function War(props) {
   };
 
   return (
-    <div className="War" onPointerDown={getPos1} onPointerUp={getPos2}>
+    <div className="War">
       <div className={`cards-slider active-slide-${idx}`}>
         <div className="buttons">
           <div
