@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import Card from "./Card";
 
+import { FaLessThan, FaGreaterThan } from "react-icons/fa";
 function War(props) {
 
   //STATE
@@ -33,14 +34,14 @@ function War(props) {
             onClick={decrement}
             style={{ cursor: "pointer" }}
           >
-            &lt;
+            <FaLessThan/>
           </div>
           <div
             className="btn increment"
             onClick={increment}
             style={{ cursor: "pointer" }}
           >
-            &gt;
+            <FaGreaterThan/>
           </div>
         </div>
         <div
