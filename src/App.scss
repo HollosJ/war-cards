@@ -79,9 +79,14 @@ a {
 }
 .backBtn {
   position: absolute;
-  top: 1rem;
-  left: 1rem;
-  width: 2rem;
+  top: 0;
+  left: 0;
+  min-height: 4rem;
+  min-width: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3rem;
 }
 
 .buttons {

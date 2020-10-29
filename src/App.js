@@ -1,6 +1,6 @@
 import React from "react";
 import "./App.scss";
-import BackBtn from "./img/back.png";
+import {FaArrowLeft} from "react-icons/fa"
 import { HashRouter, Route, Link, Switch } from "react-router-dom";
 import { data } from "./data";
 import War from "./War";
@@ -32,13 +32,8 @@ function App() {
             return (
               <Route key={i} exact path={`/${key}/`}>
                 <War war={data[key]} />
-                <Link to="/">
-                  <img
-                    src={BackBtn}
-                    alt="back"
-                    style={{ cursor: "pointer" }}
-                    className="backBtn"
-                  />
+                <Link to="/"className="backBtn">
+                  <FaArrowLeft />
                 </Link>
               </Route>
             );
