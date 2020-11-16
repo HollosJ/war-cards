@@ -41,13 +41,17 @@ a {
 .Nav {
   width: 100%;
   min-height: 4rem;
+  background-color: $red;
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: rgba($red, 0.75);
-  font-size: 2rem;
-  text-transform: uppercase;
-  letter-spacing: 1rem;
+
+  &__logo {
+    text-transform: uppercase;
+    font-size: 1.75rem;
+    letter-spacing: 1.5rem;
+    margin-right: -1.5rem;
+  }
 }
 
 //Home screen (War selection component)
