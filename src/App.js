@@ -10,20 +10,16 @@ function App() {
   const keys = Object.keys(data); //["WW1", "WW2"]...
 
   // Gets first image from each war, to use as background image for war selections screen
-  const imgs = Object.keys(data).map((d) => {
-    return data[d][0].img;
-  });
+  const imgs = Object.keys(data).map((d) => {return data[d][0].img});
 
   return (
     <HashRouter>
       <div className="App">
         {/* Nav menu */}
         <div className="Nav">
-          <ul className="Nav__links">
-            <Link to="/" className="homebtn">
-              War Cards
+            <Link to="/" className="Nav__logo">
+              WAR CARDS
             </Link>
-          </ul>
         </div>
 
         {/*Router routes to wars */}
