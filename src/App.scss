@@ -54,9 +54,13 @@ a {
 .Home {
   &__grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
     grid-template-rows: repeat(auto);
     width: 100%;
+    max-width: 75rem;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
     a {
       display: flex;
       justify-content: center;
@@ -65,6 +69,8 @@ a {
       font-size: 2rem;
       text-align: center;
       transition: opacity 0.3s ease;
+      margin: 0.5rem;
+      border-radius: 1rem;
 
       &:hover {
         opacity: 0.9;
